@@ -9,6 +9,8 @@
   "categories": [
     "Other"
   ],
+  "publisher": "Platinumaniac",
+  "icon": "./wiz_new_crop.png",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -20,6 +22,7 @@
       }
     ]
   },
+  "repository": "https://github.com/Platinumaniac/vscode-plat-pixel-icons",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",

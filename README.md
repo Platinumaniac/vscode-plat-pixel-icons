@@ -7,7 +7,7 @@ It is pretty small for the time being
 
 the package contains the following icons:
 
-![the icons currently available in the plat pixel pack](/icon_themes/platpixelpreview.png)
+![the icons currently available in the plat pixel pack](https://github.com/platinumaniac/vscode-plat-pixel-icons/blob/main/icon_themes/platpixelpreview.png?raw=true)
 
 ## Release Notes
 
