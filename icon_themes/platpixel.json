@@ -55,6 +55,14 @@
         "data_folder_expanded": {
             "iconPath": "./icons/folders/data_folder_expanded.png"
         },
+		
+		"dist_folder": {
+			"iconPath": "./icons/folders/dist_folder.png"
+		},
+
+		"dist_folder_expanded": {
+			"iconPath": "./icons/folders/dist_folder_expanded.png"
+		},
 
         "base_file": {
             "iconPath": "./icons/file.png"
@@ -89,12 +97,24 @@
         "model_file": {
             "iconPath": "./icons/model.png"
         },
+		"db_file": {
+			"iconPath": "./icons/db.png"
+		},
         "ts_file": {
             "iconPath": "./icons/ts.png"
         },
         "test_ts_file": {
             "iconPath": "./icons/ts_test.png"
         },
+		"config_ts_file": {
+            "iconPath": "./icons/tsconfig.png"
+        },
+		"vite_config_file": {
+            "iconPath": "./icons/viteconfig.png"
+        },
+		"vue_file": {
+			"iconPath": "./icons/vue.png"
+		},
         "js_file": {
             "iconPath": "./icons/js.png"
         },
@@ -127,12 +147,27 @@
         },
         "gdscene_file": {
             "iconPath": "./icons/tscn.png"
-        }
+        },
+		"tres_file": {
+			"iconPath": "./icons/tres.png"
+		},
+		"docker_file": {
+			"iconPath": "./icons/docker.png"
+		},
+		"blender_file": {
+			"iconPath": "./icons/blend.png"
+		},
+		"aseprite_file": {
+			"iconPath": "./icons/ase.png"
+		}
         
     },
     "folder": "base_folder",
     "folderExpanded": "base_folder_expanded",
     "file": "base_file",
+
+	
+
     "folderNames": {
         "assets": "asset_folder",
         "images": "asset_folder",
@@ -150,6 +185,9 @@
 
         "data": "data_folder",
         "docs": "data_folder",
+
+		"dist": "dist_folder",
+		"build": "dist_folder",
         
         ".vscode": "vscode_folder",
 
@@ -174,6 +212,9 @@
         "data": "data_folder_expanded",
         "docs": "data_folder_expanded",
 
+		"dist": "dist_folder_expanded",
+		"build": "dist_folder_expanded",
+
         ".vscode": "vscode_folder_expanded",
 
         "python": "python_folder_expanded"
@@ -188,6 +229,7 @@
         "js": "js_file",
         "html": "html_file",
         "css": "css_file",
+		"vue": "vue_file",
 
         "json": "json_file",
         "zip": "zip_file",
@@ -205,6 +247,11 @@
 
         "gd": "gdscript_file",
         "tscn": "gdscene_file",
+
+		"blend": "blender_file",
+
+		"ase": "aseprite_file",
+		"aseprite": "aseprite_file",
         
 
         "fbx": "model_file",
@@ -226,6 +273,16 @@
         "mov": "video_file",
         "avi": "video_file",
 
+		"db": "db_file",
+		"sql": "db_file",
+
+
         "gitignore": "git_file"
-    }
+    },
+	"fileNames": {
+		"tsconfig.json": "config_ts_file",
+		"vite.config.js": "vite_config_file",
+		"vite.config.ts": "vite_config_file",
+		"Dockerfile": "docker_file"
+	}
 }
