@@ -1,288 +1,381 @@
 {
-    "iconDefinitions": {
-        "base_folder": {
-            "iconPath": "./icons/folders/folder.png"
-        },
-        "base_folder_expanded": {
-            "iconPath": "./icons/folders/folder_expanded.png"
-        },
-
-        "asset_folder": {
-            "iconPath": "./icons/folders/asset_folder.png"
-        },
-        "asset_folder_expanded": {
-            "iconPath": "./icons/folders/asset_folder_expanded.png"
-        },
-
-        "sound_folder": {
-            "iconPath": "./icons/folders/sound_folder.png"
-        },
-        "sound_folder_expanded": {
-            "iconPath": "./icons/folders/sound_folder_expanded.png"
-        },
-
-        "model_folder": {
-            "iconPath": "./icons/folders/model_folder.png"
-        },
-        "model_folder_expanded": {
-            "iconPath": "./icons/folders/model_folder_expanded.png"
-        },
-
-        "extension_folder": {
-            "iconPath": "./icons/folders/extension_folder.png"
-        },
-        "extension_folder_expanded": {
-            "iconPath": "./icons/folders/extension_folder_expanded.png"
-        },
-
-        "vscode_folder": {
-            "iconPath": "./icons/folders/vscode_folder.png"
-        },
-        "vscode_folder_expanded": {
-            "iconPath": "./icons/folders/vscode_folder_expanded.png"
-        },
-
-        "python_folder": {
-            "iconPath": "./icons/folders/python_folder.png"
-        },
-        "python_folder_expanded": {
-            "iconPath": "./icons/folders/python_folder_expanded.png"
-        },
-
-        "data_folder": {
-            "iconPath": "./icons/folders/data_folder.png"
-        },
-        "data_folder_expanded": {
-            "iconPath": "./icons/folders/data_folder_expanded.png"
-        },
-		
+	"iconDefinitions": {
+		"default_file": {
+			"iconPath": "./icons/default_file.png"
+		},
+		"default_folder": {
+			"iconPath": "./icons/default_folder.png"
+		},
+		"default_folder_expanded": {
+			"iconPath": "./icons/default_folder_expanded.png"
+		},
+		"asset_folder": {
+			"iconPath": "./icons/asset_folder.png"
+		},
+		"asset_folder_expanded": {
+			"iconPath": "./icons/asset_folder_expanded.png"
+		},
+		"extension_folder": {
+			"iconPath": "./icons/extension_folder.png"
+		},
+		"extension_folder_expanded": {
+			"iconPath": "./icons/extension_folder_expanded.png"
+		},
+		"music_folder": {
+			"iconPath": "./icons/music_folder.png"
+		},
+		"music_folder_expanded": {
+			"iconPath": "./icons/music_folder_expanded.png"
+		},
+		"model_folder": {
+			"iconPath": "./icons/model_folder.png"
+		},
+		"model_folder_expanded": {
+			"iconPath": "./icons/model_folder_expanded.png"
+		},
 		"dist_folder": {
-			"iconPath": "./icons/folders/dist_folder.png"
+			"iconPath": "./icons/dist_folder.png"
 		},
-
 		"dist_folder_expanded": {
-			"iconPath": "./icons/folders/dist_folder_expanded.png"
+			"iconPath": "./icons/dist_folder_expanded.png"
 		},
-
-        "base_file": {
-            "iconPath": "./icons/file.png"
-        },
-        "text_file": {
-            "iconPath": "./icons/text.png"
-        },
-        "markdown_file": {
-            "iconPath": "./icons/markdown.png"
-        },
-        "json_file": {
-            "iconPath": "./icons/json.png"
-        },
-        "zip_file": {
-            "iconPath": "./icons/zip.png"
-        },
-        "git_file": {
-            "iconPath": "./icons/git.png"
-        },
-        "sound_file": {
-            "iconPath": "./icons/sound.png"
-        },
-        "image_file": {
-            "iconPath": "./icons/image.png"
-        },
-        "video_file": {
-            "iconPath": "./icons/video.png"
-        },
-        "svg_file": {
-            "iconPath": "./icons/svg.png"
-        },
-        "model_file": {
-            "iconPath": "./icons/model.png"
-        },
-		"db_file": {
-			"iconPath": "./icons/db.png"
+		"data_folder": {
+			"iconPath": "./icons/data_folder.png"
 		},
-        "ts_file": {
-            "iconPath": "./icons/ts.png"
-        },
-        "test_ts_file": {
-            "iconPath": "./icons/ts_test.png"
-        },
-		"config_ts_file": {
-            "iconPath": "./icons/tsconfig.png"
-        },
-		"vite_config_file": {
-            "iconPath": "./icons/viteconfig.png"
-        },
-		"vue_file": {
-			"iconPath": "./icons/vue.png"
+		"data_folder_expanded": {
+			"iconPath": "./icons/data_folder_expanded.png"
 		},
-        "js_file": {
-            "iconPath": "./icons/js.png"
-        },
-        "c_file": {
-            "iconPath": "./icons/c.png"
-        },
-        "c++_file": {
-            "iconPath": "./icons/c++.png"
-        },
-        "c#_file": {
-            "iconPath": "./icons/c#.png"
-        },
-        "header_file": {
-            "iconPath": "./icons/h.png"
-        },
-        "html_file": {
-            "iconPath": "./icons/html.png"
-        },
-        "css_file": {
-            "iconPath": "./icons/css.png"
-        },
-        "rust_file": {
-            "iconPath": "./icons/rust.png"
-        },
-        "ruby_file": {
-            "iconPath": "./icons/ruby.png"
-        },
-        "gdscript_file": {
-            "iconPath": "./icons/gdscript.png"
-        },
-        "gdscene_file": {
-            "iconPath": "./icons/tscn.png"
-        },
-		"tres_file": {
-			"iconPath": "./icons/tres.png"
+		"vscode_folder": {
+			"iconPath": "./icons/vscode_folder.png"
 		},
-		"docker_file": {
-			"iconPath": "./icons/docker.png"
+		"vscode_folder_expanded": {
+			"iconPath": "./icons/vscode_folder_expanded.png"
+		},
+		"python_folder": {
+			"iconPath": "./icons/python_folder.png"
+		},
+		"python_folder_expanded": {
+			"iconPath": "./icons/python_folder_expanded.png"
+		},
+		"video_folder": {
+			"iconPath": "./icons/video_folder.png"
+		},
+		"video_folder_expanded": {
+			"iconPath": "./icons/video_folder_expanded.png"
+		},
+		"font_folder": {
+			"iconPath": "./icons/font_folder.png"
+		},
+		"font_folder_expanded": {
+			"iconPath": "./icons/font_folder_expanded.png"
+		},
+		"zip_file": {
+			"iconPath": "./icons/zip_file.png"
+		},
+		"text_file": {
+			"iconPath": "./icons/text_file.png"
+		},
+		"markdown_file": {
+			"iconPath": "./icons/markdown_file.png"
+		},
+		"readme_file": {
+			"iconPath": "./icons/readme_file.png"
+		},
+		"json_file": {
+			"iconPath": "./icons/json_file.png"
+		},
+		"toml_file": {
+			"iconPath": "./icons/toml_file.png"
+		},
+		"csv_file": {
+			"iconPath": "./icons/csv_file.png"
+		},
+		"yaml_file": {
+			"iconPath": "./icons/yaml_file.png"
+		},
+		"vector_file": {
+			"iconPath": "./icons/vector_file.png"
+		},
+		"model_file": {
+			"iconPath": "./icons/model_file.png"
+		},
+		"image_file": {
+			"iconPath": "./icons/image_file.png"
+		},
+		"audio_file": {
+			"iconPath": "./icons/audio_file.png"
+		},
+		"video_file": {
+			"iconPath": "./icons/video_file.png"
+		},
+		"database_file": {
+			"iconPath": "./icons/database_file.png"
+		},
+		"font_file": {
+			"iconPath": "./icons/font_file.png"
+		},
+		"dist_file": {
+			"iconPath": "./icons/dist_file.png"
 		},
 		"blender_file": {
-			"iconPath": "./icons/blend.png"
+			"iconPath": "./icons/blender_file.png"
 		},
 		"aseprite_file": {
-			"iconPath": "./icons/ase.png"
+			"iconPath": "./icons/aseprite_file.png"
+		},
+		"typescript_file": {
+			"iconPath": "./icons/typescript_file.png"
+		},
+		"typescript_test_file": {
+			"iconPath": "./icons/typescript_test_file.png"
+		},
+		"typescript_config_file": {
+			"iconPath": "./icons/typescript_config_file.png"
+		},
+		"vite_file": {
+			"iconPath": "./icons/vite_file.png"
+		},
+		"javascript_file": {
+			"iconPath": "./icons/javascript_file.png"
+		},
+		"html_file": {
+			"iconPath": "./icons/html_file.png"
+		},
+		"css_file": {
+			"iconPath": "./icons/css_file.png"
+		},
+		"vue_file": {
+			"iconPath": "./icons/vue_file.png"
+		},
+		"svelte_file": {
+			"iconPath": "./icons/svelte_file.png"
+		},
+		"bazel_file": {
+			"iconPath": "./icons/bazel_file.png"
+		},
+		"python_file": {
+			"iconPath": "./icons/python_file.png"
+		},
+		"c_file": {
+			"iconPath": "./icons/c_file.png"
+		},
+		"cs_file": {
+			"iconPath": "./icons/cs_file.png"
+		},
+		"cplusplus_file": {
+			"iconPath": "./icons/cplusplus_file.png"
+		},
+		"header_file": {
+			"iconPath": "./icons/header_file.png"
+		},
+		"ruby_file": {
+			"iconPath": "./icons/ruby_file.png"
+		},
+		"rockstar_file": {
+			"iconPath": "./icons/rockstar_file.png"
+		},
+		"java_file": {
+			"iconPath": "./icons/java_file.png"
+		},
+		"mindustry_file": {
+			"iconPath": "./icons/mindustry_file.png"
+		},
+		"bf_file": {
+			"iconPath": "./icons/bf_file.png"
+		},
+		"kotlin_file": {
+			"iconPath": "./icons/kotlin_file.png"
+		},
+		"rust_file": {
+			"iconPath": "./icons/rust_file.png"
+		},
+		"docker_file": {
+			"iconPath": "./icons/docker_file.png"
+		},
+		"php_file": {
+			"iconPath": "./icons/php_file.png"
+		},
+		"go_file": {
+			"iconPath": "./icons/go_file.png"
+		},
+		"pearl_file": {
+			"iconPath": "./icons/pearl_file.png"
+		},
+		"git_file": {
+			"iconPath": "./icons/git_file.png"
+		},
+		"powershell_file": {
+			"iconPath": "./icons/powershell_file.png"
+		},
+		"config_file": {
+			"iconPath": "./icons/config_file.png"
+		},
+		"bash_file": {
+			"iconPath": "./icons/bash_file.png"
+		},
+		"save_file": {
+			"iconPath": "./icons/save_file.png"
+		},
+		"godot_file": {
+			"iconPath": "./icons/godot_file.png"
+		},
+		"godot_scene_file": {
+			"iconPath": "./icons/godot_scene_file.png"
+		},
+		"godot_resource_file": {
+			"iconPath": "./icons/godot_resource_file.png"
 		}
-        
-    },
-    "folder": "base_folder",
-    "folderExpanded": "base_folder_expanded",
-    "file": "base_file",
-
-	
-
-    "folderNames": {
-        "assets": "asset_folder",
-        "images": "asset_folder",
-        "icons": "asset_folder",
-
-        "sound": "sound_folder",
-        "music": "sound_folder",
-
-        "models": "model_folder",
-        "3D": "model_folder",
-
-        "extensions": "extension_folder",
-        "addons": "extension_folder",
-        "plugins": "extension_folder",
-
-        "data": "data_folder",
-        "docs": "data_folder",
-
-		"dist": "dist_folder",
-		"build": "dist_folder",
-        
-        ".vscode": "vscode_folder",
-
-        "python": "python_folder"
-    },
-
-    "folderNamesExpanded": {
-        "assets": "asset_folder_expanded",
-        "images": "asset_folder_expanded",
-        "icons": "asset_folder_expanded",
-
-        "sound": "sound_folder_expanded",
-        "music": "sound_folder_expanded",
-
-        "models": "model_folder_expanded",
-        "3D": "model_folder_expanded",
-
-        "extensions": "extension_folder_expanded",
-        "addons": "extension_folder_expanded",
-        "plugins": "extension_folder_expanded",
-
-        "data": "data_folder_expanded",
-        "docs": "data_folder_expanded",
-
-		"dist": "dist_folder_expanded",
-		"build": "dist_folder_expanded",
-
-        ".vscode": "vscode_folder_expanded",
-
-        "python": "python_folder_expanded"
-    },
-
-    "fileExtensions": {
-        "txt": "text_file",
-        "md": "markdown_file",
-        "svg": "svg_file",
-        "ts": "ts_file",
-        "test.ts": "test_ts_file",
-        "js": "js_file",
-        "html": "html_file",
-        "css": "css_file",
-		"vue": "vue_file",
-
-        "json": "json_file",
-        "zip": "zip_file",
-        "c": "c_file",
-
-        "c++": "c++_file",
-        "cp": "c++_file",
-        "cpp": "c++_file",
-        "h": "header_file",
-
-        "cs": "c#_file",
-
-        "rs": "rust_file",
-        "rb": "ruby_file",
-
-        "gd": "gdscript_file",
-        "tscn": "gdscene_file",
-
+	},
+	"file": "default_file",
+	"folder": "default_folder",
+	"folderExpanded": "default_folder_expanded",
+	"fileNames": {
+		"readme": "readme_file",
+		"README": "readme_file",
+		"tsconfig": "typescript_config_file",
+		"vite": "vite_file",
+		"Dockerfile": "docker_file",
+		"docker-compose": "docker_file",
+		".gitignore": "git_file"
+	},
+	"fileExtensions": {
+		"zip": "zip_file",
+		"txt": "text_file",
+		"md": "markdown_file",
+		"json": "json_file",
+		"toml": "toml_file",
+		"csv": "csv_file",
+		"yaml": "yaml_file",
+		"yml": "yaml_file",
+		"svg": "vector_file",
+		"obj": "model_file",
+		"fbx": "model_file",
+		"glb": "model_file",
+		"gltf": "model_file",
+		"stl": "model_file",
+		"dae": "model_file",
+		"png": "image_file",
+		"jpg": "image_file",
+		"jpeg": "image_file",
+		"gif": "image_file",
+		"webp": "image_file",
+		"avif": "image_file",
+		"jxl": "image_file",
+		"bmp": "image_file",
+		"mp1": "audio_file",
+		"mp2": "audio_file",
+		"mp3": "audio_file",
+		"ogg": "audio_file",
+		"oga": "audio_file",
+		"mogg": "audio_file",
+		"raw": "audio_file",
+		"wav": "audio_file",
+		"m4a": "audio_file",
+		"flac": "audio_file",
+		"webm": "video_file",
+		"mkv": "video_file",
+		"mp4": "video_file",
+		"ogv": "video_file",
+		"mov": "video_file",
+		"qt": "video_file",
+		"avi": "video_file",
+		"m4v": "video_file",
+		"gifv": "video_file",
+		"sql": "database_file",
+		"db": "database_file",
+		"sqlite": "database_file",
+		"SQLITEDB": "database_file",
+		"ttf": "font_file",
+		"fnt": "font_file",
+		"otf": "font_file",
+		"ttc": "font_file",
+		"woff": "font_file",
+		"exe": "dist_file",
+		"apk": "dist_file",
 		"blend": "blender_file",
-
 		"ase": "aseprite_file",
 		"aseprite": "aseprite_file",
-        
-
-        "fbx": "model_file",
-        "obj": "model_file",
-        "glb": "model_file",
-        "gltf": "model_file",
-
-        "bmp": "image_file",
-        "jpg": "image_file",
-        "jpeg": "image_file",
-        "png": "image_file",
-
-        "wav": "sound_file",
-        "mp3": "sound_file",
-        "mid": "sound_file",
-
-        "mp4": "video_file",
-        "mkv": "video_file",
-        "mov": "video_file",
-        "avi": "video_file",
-
-		"db": "db_file",
-		"sql": "db_file",
-
-
-        "gitignore": "git_file"
-    },
-	"fileNames": {
-		"tsconfig.json": "config_ts_file",
-		"vite.config.js": "vite_config_file",
-		"vite.config.ts": "vite_config_file",
-		"Dockerfile": "docker_file"
+		"ts": "typescript_file",
+		"d.ts": "typescript_file",
+		"test.ts": "typescript_test_file",
+		"js": "javascript_file",
+		"html": "html_file",
+		"css": "css_file",
+		"vue": "vue_file",
+		"svelte": "svelte_file",
+		"bzl": "bazel_file",
+		"py": "python_file",
+		"c": "c_file",
+		"cs": "cs_file",
+		"cp": "cplusplus_file",
+		"cpp": "cplusplus_file",
+		"c++": "cplusplus_file",
+		"h": "header_file",
+		"rb": "ruby_file",
+		"rock": "rockstar_file",
+		"jar": "java_file",
+		"java": "java_file",
+		"ml": "mindustry_file",
+		"bf": "bf_file",
+		"b": "bf_file",
+		"kt": "kotlin_file",
+		"kts": "kotlin_file",
+		"ktm": "kotlin_file",
+		"rs": "rust_file",
+		"php": "php_file",
+		"go": "go_file",
+		"pl": "pearl_file",
+		"ps1": "powershell_file",
+		"cfg": "config_file",
+		"sh": "bash_file",
+		"sav": "save_file",
+		"gd": "godot_file",
+		"godot": "godot_file",
+		"tscn": "godot_scene_file",
+		"tres": "godot_resource_file"
+	},
+	"folderNames": {
+		"assets": "asset_folder",
+		"images": "asset_folder",
+		"icons": "asset_folder",
+		"extensions": "extension_folder",
+		"addons": "extension_folder",
+		"plugins": "extension_folder",
+		"sound": "music_folder",
+		"music": "music_folder",
+		"audio": "music_folder",
+		"models": "model_folder",
+		"3D": "model_folder",
+		"dist": "dist_folder",
+		"build": "dist_folder",
+		"data": "data_folder",
+		"docs": "data_folder",
+		".vscode": "vscode_folder",
+		"python": "python_folder",
+		"__pycache__": "python_folder",
+		"videos": "video_folder",
+		"fonts": "font_folder"
+	},
+	"folderNamesExpanded": {
+		"assets": "asset_folder_expanded",
+		"images": "asset_folder_expanded",
+		"icons": "asset_folder_expanded",
+		"extensions": "extension_folder_expanded",
+		"addons": "extension_folder_expanded",
+		"plugins": "extension_folder_expanded",
+		"sound": "music_folder_expanded",
+		"music": "music_folder_expanded",
+		"audio": "music_folder_expanded",
+		"models": "model_folder_expanded",
+		"3D": "model_folder_expanded",
+		"dist": "dist_folder_expanded",
+		"build": "dist_folder_expanded",
+		"data": "data_folder_expanded",
+		"docs": "data_folder_expanded",
+		".vscode": "vscode_folder_expanded",
+		"python": "python_folder_expanded",
+		"__pycache__": "python_folder_expanded",
+		"videos": "video_folder_expanded",
+		"fonts": "font_folder_expanded"
 	}
 }

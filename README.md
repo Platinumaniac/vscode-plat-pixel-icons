@@ -14,3 +14,7 @@ the package contains the following icons:
 ### 1.0.0
 
 the initial release of the icon pack
+
+### 2.0.0
+
+new icons have been added
